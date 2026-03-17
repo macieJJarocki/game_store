@@ -1,0 +1,26 @@
+GET http://localhost:5247/games
+###
+GET http://localhost:5247/games/3
+###
+POST http://localhost:5247/games
+Content-Type: application/json
+
+{
+   "name": "Call Of Duty",
+   "genre": "Shooter",
+   "price": 25.99,
+   "releaseDate": "1995-06-27"
+}
+
+###
+PUT http://localhost:5247/games/4
+Content-Type: application/json
+
+{
+    "name": "Call Of Duty II",
+    "genre": "Shooter",
+    "price": 30.25,
+    "releaseDate": "2005-08-13"
+}
+###
+DELETE http://localhost:5247/games/4
