@@ -1,6 +1,4 @@
-using System;
 using GameStore.Api.Dtos;
-using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace GameStore.Api.Endpoints;
 
