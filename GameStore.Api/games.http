@@ -1,6 +1,7 @@
+
 GET http://localhost:5247/games
 ###
-GET http://localhost:5247/games/3
+GET http://localhost:5247/games/2
 ###
 POST http://localhost:5247/games
 Content-Type: application/json
@@ -8,12 +9,11 @@ Content-Type: application/json
 {
    "name": "Call Of Duty",
    "genre": "Shooter",
-   "price": 25.99,
+   "price": 58.99,
    "releaseDate": "1995-06-27"
 }
-
 ###
-PUT http://localhost:5247/games/4
+PUT http://localhost:5247/games/3
 Content-Type: application/json
 
 {
