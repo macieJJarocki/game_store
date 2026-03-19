@@ -20,10 +20,6 @@ public static class DataExtensions
             var dbContext = scope.ServiceProvider.GetRequiredService<GameStoreContext>();
             dbContext.Database.Migrate();
         }
-
-
-
-
     }
 
     extension(WebApplicationBuilder builder)
@@ -54,5 +50,9 @@ public static class DataExtensions
         }));
         }
     }
+
+    // DTO is a mapper between API and DB?
+    // WebAplication
+    // Entity ORM?
 
 }
